@@ -7,4 +7,4 @@ FM Calculator is a simple tool for composers who are interested using FM spectru
 
 https://github.com/allenloves/fmCalculator/releases/tag/0.1
 
-I will put on more functions later once I figured out how to do it.  :)
+For now I only have release for mac version.  The source code is very easy and should be able to compile for PC or Linux.  I will put on more functions later once I figured out how to do it.  :)
