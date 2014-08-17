@@ -8,7 +8,7 @@
 	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>com.AllenWu.FMCalculator</string>
-	<key>CFBundleName</key>
+	<key>CFBundleDisplayName</key>
 	<string>FMCalculator</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
