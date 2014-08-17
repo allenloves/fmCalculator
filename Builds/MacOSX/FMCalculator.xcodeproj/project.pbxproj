@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04397B6E19A077CF0004F6B3 /* Music-Radio.icns in Resources */ = {isa = PBXBuildFile; fileRef = 04397B6D19A077CE0004F6B3 /* Music-Radio.icns */; };
 		04C2622F199C9BEE00DCC18E /* FM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04C2622D199C9BEE00DCC18E /* FM.cpp */; };
 		207A06D7C8954CFBA69D1933 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B45FD1A6AFFE91C2B56018 /* Cocoa.framework */; };
 		2D11BA0AA2E290047173F610 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7A773DEBE3BFC6F86C2A10 /* IOKit.framework */; };
@@ -50,6 +51,7 @@
 		034D3F454D62B479389C144F /* juce_PropertiesFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = juce_PropertiesFile.cpp; path = ../../JuceLibraryCode/modules/juce_data_structures/app_properties/juce_PropertiesFile.cpp; sourceTree = SOURCE_ROOT; };
 		039A3B858D88804F3DD70DA7 /* juce_Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = juce_Timer.cpp; path = ../../JuceLibraryCode/modules/juce_events/timers/juce_Timer.cpp; sourceTree = SOURCE_ROOT; };
 		03B4597EFCE0ABE040F9EAA3 /* juce_ImagePreviewComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_ImagePreviewComponent.h; path = ../../JuceLibraryCode/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h; sourceTree = SOURCE_ROOT; };
+		04397B6D19A077CE0004F6B3 /* Music-Radio.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Music-Radio.icns"; sourceTree = "<group>"; };
 		0455D924199D7DEE006F2A08 /* coremusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coremusic.h; sourceTree = "<group>"; };
 		0455D925199D7DEE006F2A08 /* coremusicMusicXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coremusicMusicXml.h; sourceTree = "<group>"; };
 		0455D926199D7DEE006F2A08 /* coremusicPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coremusicPart.h; sourceTree = "<group>"; };
@@ -2281,6 +2283,7 @@
 		BD6A94E6B5BF802D16495A02 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				04397B6D19A077CE0004F6B3 /* Music-Radio.icns */,
 				3F8ACA9CB27EC0122B0ABB25 /* FMCalculator */,
 				0455D923199D7DEE006F2A08 /* menc */,
 				5C1C9C3F70FC3BD1E61438EB /* Juce Modules */,
@@ -2746,6 +2749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E602D776E73CFBA5CAE0095 /* RecentFilesMenuTemplate.nib in Resources */,
+				04397B6E19A077CF0004F6B3 /* Music-Radio.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2781,7 +2785,7 @@
 		1335B185A577BA034E017EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -2870,7 +2874,7 @@
 		DB1F3603CD3440109F725FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -2882,7 +2886,7 @@
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FMCalculator;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
