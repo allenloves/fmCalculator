@@ -35,7 +35,7 @@ String arrayToNoteNameString(Array<double> array)
 
 
 //==============================================================================
-MainContentComponent::MainContentComponent() : carrierSlider(Slider::LinearHorizontal, Slider::TextBoxRight), cmRatioSlider(Slider::LinearHorizontal, Slider::TextBoxRight), indexSlider(Slider::LinearHorizontal, Slider::TextBoxRight)
+MainContentComponent::MainContentComponent() : carrierSlider(Slider::LinearHorizontal, Slider::TextBoxRight), cmRatioSlider(Slider::LinearHorizontal, Slider::TextBoxRight), indexSlider(Slider::LinearHorizontal, Slider::TextBoxRight), playButton("Send MIDI")
 {
 		addAndMakeVisible(&carrierLabel);
 		
@@ -66,6 +66,9 @@ MainContentComponent::MainContentComponent() : carrierSlider(Slider::LinearHoriz
 		
 		addAndMakeVisible(&noteNameLabel);
 		addAndMakeVisible(&noteNameOutcome);
+		
+		addAndMakeVisible(&playButton);
+		
     setSize (500, 400);
 }
 
@@ -105,6 +108,8 @@ void MainContentComponent::resized()
 		noteNameLabel.setBoundsRelative(0.05, 0.60, 0.90, 0.10);
 		noteNameLabel.setText("Note Names", sendNotification);
 		noteNameOutcome.setBoundsRelative(0.05, 0.65, 0.90, 0.25);
+		
+		playButton.setBoundsRelative(0.8, 0.90, 0.15, 0.08);
 }
 
 

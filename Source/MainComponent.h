@@ -45,6 +45,8 @@ private:
 		
 		Label noteNameLabel;
 		Label noteNameOutcome;
+		
+		TextButton playButton;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
 
